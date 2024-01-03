@@ -31,6 +31,7 @@ car.put(2,new NakulCar("Nexon","white"));
 	nakul.remove(3);
 	
 	System.out.println(nakul);
+	
 SortedMap<Integer,String> nakul2=new TreeMap<Integer,String>(nakul);
 	
 	nakul2.put(1,"NEXON");
@@ -57,12 +58,20 @@ SortedMap<Integer,String> nakul2=new TreeMap<Integer,String>(nakul);
 	
 	
 	System.out.println(stringLength.compare("al","naku;"));
+	
+	
+	NakulBike pulsar=new NakulBike("pulsar","black",4446);
+	NakulBike r15=new NakulBike("r15","black",4664);
+	NakulBike shine=new NakulBike("shine","black",4660);
+	System.out.println(pulsar);
+
+	}
+	
 	}
 	
 	
 	
-	
 
 
 
-}
+
